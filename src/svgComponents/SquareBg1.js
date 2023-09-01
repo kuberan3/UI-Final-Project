@@ -1,0 +1,44 @@
+const SquareBg1 = () => {
+    return ( 
+        <svg xmlns="http://www.w3.org/2000/svg" width="244" height="191" viewBox="0 0 244 191" fill="none">
+  <g opacity="0.2">
+    <g filter="url(#filter0_d_3374_6268)">
+      <rect x="10" y="5" width="224" height="170.564" rx="3" fill="url(#paint0_linear_3374_6268)"/>
+    </g>
+    <g filter="url(#filter1_d_3374_6268)">
+      <path d="M230.835 6.47249L11.2033 170.718C10.446 171.284 9.94965 172.189 10.1743 173.107C10.5267 174.548 11.3753 175.564 12.3662 175.564H231.634C232.941 175.564 234 173.797 234 171.618V9.82126C234 8.19201 233.408 6.79336 232.563 6.19102C232.036 5.81502 231.354 6.08461 230.835 6.47249Z" fill="url(#paint1_linear_3374_6268)"/>
+    </g>
+  </g>
+  <defs>
+    <filter id="filter0_d_3374_6268" x="0" y="0" width="244" height="190.564" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="5"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.282353 0 0 0 0 0.486275 0 0 0 0.06 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3374_6268"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3374_6268" result="shape"/>
+    </filter>
+    <filter id="filter1_d_3374_6268" x="0.119873" y="1.01068" width="243.88" height="189.554" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="5"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.282353 0 0 0 0 0.486275 0 0 0 0.06 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3374_6268"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3374_6268" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear_3374_6268" x1="126.338" y1="5" x2="126.338" y2="175.564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1685F1"/>
+      <stop offset="1" stop-color="#0075DC"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_3374_6268" x1="122" y1="5.875" x2="122" y2="175.564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0075DC"/>
+      <stop offset="1" stop-color="#1685F1"/>
+    </linearGradient>
+  </defs>
+</svg>
+     );
+}
+ 
+export default SquareBg1;
